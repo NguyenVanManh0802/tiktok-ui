@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;//display: flex; là cần thiết để kích hoạt các thuộc tính flexbox khác.
+    flex-direction: column;// tạo ra bố cục dọc cho các phần tử con.
+    align-items: center;// căn giữa các phần tử con theo trục chính (trong trường hợp này là chiều dọc).
+}
+
+.container {
+    width: var(--default-layout-width);
+    display: flex;
+}
+.content {
+    flex:1;   //Thiết lập kích thước và sự giãn nở của một phần tử flexbox.
+    min-height:1000px;
+}
